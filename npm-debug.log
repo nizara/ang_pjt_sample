@@ -1,0 +1,243 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'grunt' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'grunt', null ]
+6 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'grunt',
+7 verbose parsed url   path: 'grunt',
+7 verbose parsed url   href: 'grunt' }
+8 silly lockFile 20ff3fd8-grunt grunt
+9 verbose lock grunt /home/nizar/.npm/20ff3fd8-grunt.lock
+10 silly lockFile 20ff3fd8-grunt grunt
+11 silly lockFile 20ff3fd8-grunt grunt
+12 verbose addNamed [ 'grunt', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 55f1ff24-grunt grunt@
+15 verbose lock grunt@ /home/nizar/.npm/55f1ff24-grunt.lock
+16 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+17 verbose request where is /grunt
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id e35c4a7e9dd99102
+20 verbose url raw /grunt
+21 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+22 verbose url resolved https://registry.npmjs.org/grunt
+23 verbose request where is https://registry.npmjs.org/grunt
+24 info trying registry request attempt 1 at 08:04:47
+25 verbose etag "A33UYOYBVN0XMF0482XZBIOS9"
+26 http GET https://registry.npmjs.org/grunt
+27 http 304 https://registry.npmjs.org/grunt
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Wed, 17 Aug 2016 06:06:02 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     etag: '"A33UYOYBVN0XMF0482XZBIOS9"',
+28 silly registry.get     age: '188',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '2',
+28 silly registry.get     'x-timer': 'S1471413962.252020,VS0,VE0',
+28 silly registry.get     vary: 'Accept-Encoding' } ]
+29 verbose etag https://registry.npmjs.org/grunt from cache
+30 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+31 silly addNameRange versions [ 'grunt',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.2.1',
+31 silly addNameRange     '0.2.2',
+31 silly addNameRange     '0.2.3',
+31 silly addNameRange     '0.2.4',
+31 silly addNameRange     '0.2.5',
+31 silly addNameRange     '0.2.6',
+31 silly addNameRange     '0.2.7',
+31 silly addNameRange     '0.2.8',
+31 silly addNameRange     '0.2.9',
+31 silly addNameRange     '0.2.10',
+31 silly addNameRange     '0.2.11',
+31 silly addNameRange     '0.2.12',
+31 silly addNameRange     '0.2.13',
+31 silly addNameRange     '0.2.14',
+31 silly addNameRange     '0.2.15',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.3.1',
+31 silly addNameRange     '0.3.2',
+31 silly addNameRange     '0.3.3',
+31 silly addNameRange     '0.3.4',
+31 silly addNameRange     '0.3.5',
+31 silly addNameRange     '0.3.6',
+31 silly addNameRange     '0.3.7',
+31 silly addNameRange     '0.3.8',
+31 silly addNameRange     '0.3.9',
+31 silly addNameRange     '0.3.10',
+31 silly addNameRange     '0.3.11',
+31 silly addNameRange     '0.3.12',
+31 silly addNameRange     '0.3.13',
+31 silly addNameRange     '0.3.14',
+31 silly addNameRange     '0.3.15',
+31 silly addNameRange     '0.3.16',
+31 silly addNameRange     '0.3.17',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.4.1',
+31 silly addNameRange     '0.4.2',
+31 silly addNameRange     '0.4.3',
+31 silly addNameRange     '0.4.4',
+31 silly addNameRange     '0.4.5',
+31 silly addNameRange     '1.0.0-rc1',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '0.3.13-a',
+31 silly addNameRange     '0.4.0-a',
+31 silly addNameRange     '0.4.0-rc1',
+31 silly addNameRange     '0.4.0-rc2',
+31 silly addNameRange     '0.4.0-rc3',
+31 silly addNameRange     '0.4.0-rc4',
+31 silly addNameRange     '0.4.0-rc5',
+31 silly addNameRange     '0.4.0-rc6',
+31 silly addNameRange     '0.4.0-rc7',
+31 silly addNameRange     '0.4.0-rc8' ] ]
+32 verbose addNamed [ 'grunt', '1.0.1' ]
+33 verbose addNamed [ '1.0.1', '1.0.1' ]
+34 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+35 verbose lock grunt@1.0.1 /home/nizar/.npm/75468da5-grunt-1-0-1.lock
+36 silly lockFile 1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+37 verbose lock https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz /home/nizar/.npm/1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz',
+38 verbose addRemoteTarball   'e8778764e944b18f32bb0f10b9078475c9dfb56b' ]
+39 info retry fetch attempt 1 at 08:06:02
+40 verbose fetch to= /tmp/npm-29220-AU22UXhB/registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+41 http GET https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+42 http 200 https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+43 silly lockFile 1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+44 silly lockFile 1a9b2b0c--npmjs-org-grunt-grunt-1-0-1-tgz https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+45 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+46 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+47 silly lockFile 55f1ff24-grunt grunt@
+48 silly lockFile 55f1ff24-grunt grunt@
+49 silly resolved [ { name: 'grunt',
+49 silly resolved     description: 'The JavaScript Task Runner',
+49 silly resolved     version: '1.0.1',
+49 silly resolved     author:
+49 silly resolved      { name: 'Grunt Development Team',
+49 silly resolved        url: 'http://gruntjs.com/development-team' },
+49 silly resolved     homepage: 'http://gruntjs.com/',
+49 silly resolved     repository: { type: 'git', url: 'git+https://github.com/gruntjs/grunt.git' },
+49 silly resolved     license: 'MIT',
+49 silly resolved     engines: { node: '>=0.10.0' },
+49 silly resolved     scripts: { test: 'grunt test', 'test-tap': 'grunt test:tap' },
+49 silly resolved     main: 'lib/grunt',
+49 silly resolved     bin: { grunt: 'bin/grunt' },
+49 silly resolved     keywords:
+49 silly resolved      [ 'task',
+49 silly resolved        'async',
+49 silly resolved        'cli',
+49 silly resolved        'minify',
+49 silly resolved        'uglify',
+49 silly resolved        'build',
+49 silly resolved        'lodash',
+49 silly resolved        'unit',
+49 silly resolved        'test',
+49 silly resolved        'qunit',
+49 silly resolved        'nodeunit',
+49 silly resolved        'server',
+49 silly resolved        'init',
+49 silly resolved        'scaffold',
+49 silly resolved        'make',
+49 silly resolved        'jake',
+49 silly resolved        'tool' ],
+49 silly resolved     dependencies:
+49 silly resolved      { 'coffee-script': '~1.10.0',
+49 silly resolved        dateformat: '~1.0.12',
+49 silly resolved        eventemitter2: '~0.4.13',
+49 silly resolved        exit: '~0.1.1',
+49 silly resolved        'findup-sync': '~0.3.0',
+49 silly resolved        glob: '~7.0.0',
+49 silly resolved        'grunt-cli': '~1.2.0',
+49 silly resolved        'grunt-known-options': '~1.1.0',
+49 silly resolved        'grunt-legacy-log': '~1.0.0',
+49 silly resolved        'grunt-legacy-util': '~1.0.0',
+49 silly resolved        'iconv-lite': '~0.4.13',
+49 silly resolved        'js-yaml': '~3.5.2',
+49 silly resolved        minimatch: '~3.0.0',
+49 silly resolved        nopt: '~3.0.6',
+49 silly resolved        'path-is-absolute': '~1.0.0',
+49 silly resolved        rimraf: '~2.2.8' },
+49 silly resolved     devDependencies:
+49 silly resolved      { difflet: '~0.2.3',
+49 silly resolved        'grunt-contrib-jshint': '~1.0.0',
+49 silly resolved        'grunt-contrib-nodeunit': '~0.4.1',
+49 silly resolved        'grunt-contrib-watch': '~1.0.0',
+49 silly resolved        'grunt-jscs': '~2.8.0',
+49 silly resolved        semver: '2.1.0',
+49 silly resolved        shelljs: '~0.5.3',
+49 silly resolved        temporary: '~0.0.4',
+49 silly resolved        through2: '~2.0.0' },
+49 silly resolved     files: [ 'lib', 'bin' ],
+49 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+49 silly resolved     gitHead: '8ada4948b69c6ec9b1e956b5e6b2e6814fa054ca',
+49 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt/issues' },
+49 silly resolved     _id: 'grunt@1.0.1',
+49 silly resolved     _shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+49 silly resolved     _from: 'grunt@',
+49 silly resolved     _npmVersion: '2.15.2',
+49 silly resolved     _nodeVersion: '4.4.1',
+49 silly resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+49 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+49 silly resolved     dist:
+49 silly resolved      { shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+49 silly resolved        tarball: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz' },
+49 silly resolved     _npmOperationalInternal:
+49 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+49 silly resolved        tmp: 'tmp/grunt-1.0.1.tgz_1459880209209_0.8634267684537917' },
+49 silly resolved     directories: {},
+49 silly resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz' } ]
+50 info install grunt@1.0.1 into /usr/lib
+51 info installOne grunt@1.0.1
+52 verbose lib/node_modules/grunt unbuild
+53 verbose tar unpack /home/nizar/.npm/grunt/1.0.1/package.tgz
+54 silly lockFile 8cad6651-tar-usr-lib-node-modules-grunt tar:///usr/lib/node_modules/grunt
+55 verbose lock tar:///usr/lib/node_modules/grunt /home/nizar/.npm/8cad6651-tar-usr-lib-node-modules-grunt.lock
+56 silly lockFile 22224a81-izar-npm-grunt-1-0-1-package-tgz tar:///home/nizar/.npm/grunt/1.0.1/package.tgz
+57 verbose lock tar:///home/nizar/.npm/grunt/1.0.1/package.tgz /home/nizar/.npm/22224a81-izar-npm-grunt-1-0-1-package-tgz.lock
+58 silly gunzTarPerm modes [ '775', '664' ]
+59 error Error: EACCES, mkdir '/usr/lib/node_modules/grunt'
+59 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/grunt']
+59 error   errno: 3,
+59 error   code: 'EACCES',
+59 error   path: '/usr/lib/node_modules/grunt',
+59 error   fstream_type: 'Directory',
+59 error   fstream_path: '/usr/lib/node_modules/grunt',
+59 error   fstream_class: 'DirWriter',
+59 error   fstream_stack:
+59 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+59 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+59 error      'Object.oncomplete (fs.js:108:15)' ] }
+60 error Please try running this command again as root/Administrator.
+61 error System Linux 3.13.0-32-generic
+62 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "grunt"
+63 error cwd /home/nizar/angular_works/workspace/test2/ang_pjt_sample
+64 error node -v v0.10.37
+65 error npm -v 1.4.28
+66 error path /usr/lib/node_modules/grunt
+67 error fstream_path /usr/lib/node_modules/grunt
+68 error fstream_type Directory
+69 error fstream_class DirWriter
+70 error code EACCES
+71 error errno 3
+72 error stack Error: EACCES, mkdir '/usr/lib/node_modules/grunt'
+73 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+73 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+73 error fstream_stack Object.oncomplete (fs.js:108:15)
+74 verbose exit [ 3, true ]
