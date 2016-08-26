@@ -16,8 +16,9 @@
      <script src="scripts/app/app.js"></script>
      <script src="scripts/app/ctrls_routers/ct1.js"></script>
          <script src="scripts/app/services/se1.js"></script>
+      <script src="scripts/app/ctrls_routers/rout1.js"></script>
 
-  <style>
+    <style>
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       margin-bottom: 0;
@@ -66,9 +67,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a ng-href="#/about">About</a></li>
+        <li><a ng-href="#">Projects</a></li>
+        <li><a ng-href="#/contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -81,11 +82,10 @@
   <div class="row content">
 
 
-  <div ng-controller="myController">
-    www {{name}}
+ <ng-view></ng-view>
   </div>
-  </div>
-</div>
+
+    </div>
 
 <footer class="container-fluid text-center">
   <p>Footer Text</p>

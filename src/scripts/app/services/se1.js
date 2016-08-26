@@ -1,3 +1,4 @@
+'use strict';
 angular.module("myapp").factory("myService",function(){
     var myobj = {};
     myobj.myfct = function (){
