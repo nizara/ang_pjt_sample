@@ -1,4 +1,4 @@
 'use strict';
-angular.module("myapp").controller("ct1",function(se1,$scope){
-    $scope.name=se1.myfct();
+angular.module("myapp").controller("myController",function(myService,$scope){
+    $scope.name=myService.myfct();
 });

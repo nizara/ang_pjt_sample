@@ -1,7 +1,7 @@
-angular.module("myapp").factory("se1",function(){
+angular.module("myapp").factory("myService",function(){
     var myobj = {};
     myobj.myfct = function (){
-        return 'nizar aj';
+        return 'nizar ajroud';
     };
     return myobj;
 });
